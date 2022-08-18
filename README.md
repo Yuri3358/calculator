@@ -1,7 +1,7 @@
 <h1>Future features</h1>
 
-- [ ] Put decimal numbers
-- [ ] Clear and reset button
+- [ ] Insert decimal numbers
+- [ ] Clear and reset buttons
 - [ ] Improve exceptions
 
 <hr>

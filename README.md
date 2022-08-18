@@ -1,5 +1,3 @@
-# Calculadora
-
 <h1>Future features</h1>
 
 - [ ] Put decimal numbers

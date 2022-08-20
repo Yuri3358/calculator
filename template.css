@@ -35,7 +35,7 @@ body {
     margin: auto;
     height: 2cm;
     width: 9cm;
-    top: 48px;
+    top: 30px;
     border-width: 10px;
     border-style:double;
     font-size: 40px;
@@ -47,7 +47,7 @@ body {
     text-align: center;
     position: relative;
     border-radius: 10px;
-    top: 3.5cm;
+    top: 2.5cm;
     height: 6cm;
     width: 12cm;
     margin: auto;
@@ -57,6 +57,25 @@ body {
     background-color: rgb(253, 253, 77);
 }
 
+<<<<<<< HEAD
+=======
+[name="clean"], [name="deleted"] {
+    position: relative;
+    font-size: 28px;
+    border-radius: 10px;
+    top: 10px;
+    left: 4cm;
+}
+
+[name="clean"]:hover {
+    background-color: rgb(255, 191, 73);
+}
+
+[name="deleted"]:hover {
+    background-color: rgb(255, 191, 73);
+}
+
+>>>>>>> 0ba7176 (Console logs removed; clean and deleted added)
 [id="1"], [id="2"], [id="3"], [id="4"], [id="5"], [id="6"], [id="7"], [id="8"], [id="9"], [id="0"], [id="."]{
     font-size: 36px;
     border-radius: 8cm;

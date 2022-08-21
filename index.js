@@ -22,7 +22,6 @@ function start() {
     
                     case "clear":
                         list_numbers.length = 0
-                        output.innerText = "aaa"
                         break
     
                     case "delete":
@@ -41,7 +40,7 @@ function start() {
                 } catch {
                     output.style.color = "red"
                     output.style.fontSize = "30px"
-                    output.innerHTML = "<strong>[ERROR]</strong> Try remake the calc, something went wrong!"
+                    output.innerHTML = "<strong>[ERROR]</strong> Try again, something went wrong!"
                 
                 } 
         })

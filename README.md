@@ -4,7 +4,7 @@
 - [X] Clear and reset buttons
 - [ ] Improve exceptions
 - [ ] Modularization
-- [ ] Rework css
+- [X] Rework css
 
 <hr>
 

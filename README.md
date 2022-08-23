@@ -3,6 +3,8 @@
 - [X] Insert decimal numbers
 - [X] Clear and reset buttons
 - [ ] Improve exceptions
+- [ ] Modularization
+- [ ] Rework css
 
 <hr>
 

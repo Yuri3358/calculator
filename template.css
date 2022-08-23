@@ -37,7 +37,7 @@ body {background-color: cornflowerblue;}
     background-color: rgba(95, 255, 202, 0.61);
 }
 
-#numpad {
+.numpad {
     height: 6cm;
     width: 12cm;
     top: 2.5cm;

@@ -21,7 +21,7 @@ function start() {
                         break
     
                     case "clear":
-                        list_numbers.length = 0
+                        list_numbers.length = 0 //clear list_numbers
                         break
     
                     case "delete":
@@ -36,20 +36,12 @@ function start() {
                         output.innerHTML = expression
                     }
 
-
             } catch {
                 output.style.color = "red"
                 output.style.fontSize = "28px"
                 output.innerHTML = "<strong>[ERROR]</strong> Try remake the calc, something went wrong!"
             
             } 
-
-                } catch {
-                    output.style.color = "red"
-                    output.style.fontSize = "30px"
-                    output.innerHTML = "<strong>[ERROR]</strong> Try again, something went wrong!"
-                
-                } 
         })
     }
 }

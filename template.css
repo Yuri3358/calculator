@@ -24,12 +24,17 @@ body {background-color: cornflowerblue;}
     border-color: black;
 }
 
+@font-face {
+    font-family: "digital-clock-font";
+    src: url("./assets/font/digital-7.ttf");
+}
+
 .display {
     top: 30px;
     height: 2cm;
     width: 9cm;
     border-width: 10px;
-    font-size: 40px;
+    font-family: 'digital-clock-font';
     position: relative;
     margin: auto;
     border-style:double;

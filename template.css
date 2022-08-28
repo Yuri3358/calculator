@@ -10,6 +10,11 @@ footer {
     top: 2cm;
 }
 
+@font-face {
+    font-family: "digital-clock-font";
+    src: url("./assets/font/digital-7.ttf");
+}
+
 body {background-color: cornflowerblue;}
 
 .calculator_frame {
@@ -24,10 +29,6 @@ body {background-color: cornflowerblue;}
     border-color: black;
 }
 
-@font-face {
-    font-family: "digital-clock-font";
-    src: url("./assets/font/digital-7.ttf");
-}
 
 .display {
     top: 30px;

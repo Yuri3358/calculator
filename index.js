@@ -37,7 +37,6 @@ function start() {
                 output.style.color = "red"
                 output.innerHTML = "ERROR"
                 list_numbers.length = 0
-            
             } 
         })
     }) 

@@ -7,6 +7,7 @@ footer {
     text-align: center;
     font-size: 18px;
     position: relative;
+    font-weight: bold;
     top: 2cm;
 }
 
@@ -15,7 +16,7 @@ footer {
     src: url("./assets/font/digital-7.ttf");
 }
 
-body {background-color: cornflowerblue;}
+body {background-color: rgb(126, 125, 125);}
 
 .calculator_frame {
     height: 12cm;
@@ -25,12 +26,12 @@ body {background-color: cornflowerblue;}
     margin: auto;
     position: relative;
     border-style: inset;
-    background-color: rgb(110, 108, 108);
-    border-color: black;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
 }
 
 .display {
-    top: 30px;
+    top: 25px;
     height: 2cm;
     width: 9cm;
     border-width: 10px;
@@ -39,7 +40,7 @@ body {background-color: cornflowerblue;}
     margin: auto;
     border-style:double;
     text-align: center;
-    background-color: rgba(95, 255, 202, 0.61);
+    background-color: rgb(201, 137, 18);
 }
 
 .numpad {
@@ -50,10 +51,9 @@ body {background-color: cornflowerblue;}
     position: relative;
     text-align: center;
     border-radius: 10px;
-    background-color: rgba(170, 170, 170, 0.295);
 }
 
-.number:hover {background-color: rgb(253, 253, 77);}
+.number:hover {background-color: rgb(248, 248, 7);}
 
 .clear, .delete {
     position: relative;
@@ -64,10 +64,10 @@ body {background-color: cornflowerblue;}
 }
 
 .clear:hover {
-    background-color: rgb(255, 191, 73);
+    background-color: rgb(243, 164, 18);
 }
 
-.delete:hover {background-color: rgb(255, 191, 73);}
+.delete:hover {background-color: rgb(238, 161, 17);}
 
 .digits {
     width: 2cm;
@@ -82,7 +82,7 @@ body {background-color: cornflowerblue;}
     position: absolute;
 }
 
-.dot:hover {background-color: rgb(100, 241, 100);}
+.dot:hover {background-color: rgb(48, 241, 48);}
 
 .operators {
     width: 1.5cm;
@@ -94,6 +94,6 @@ body {background-color: cornflowerblue;}
     background-color: rgb(221, 218, 218);
 }
 
-.operators:hover {background-color: rgb(255, 98, 98);}
+.operators:hover {background-color: rgb(255, 0, 0);}
 
-.equal:hover {background-color: rgb(255, 191, 73);}
+.equal:hover {background-color: rgb(235, 155, 8);}

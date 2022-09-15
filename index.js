@@ -9,7 +9,7 @@ function start() {
         number.addEventListener('click', (element) => {
 
             list_numbers.push(element.target.id) //add the id to array "list_numbers"
-            let last_button = list_numbers[list_numbers.length-1] //last element from array
+            let last_button = list_numbers.at(-1)//last element from array
 
             try {
                 output.style.color = "black"

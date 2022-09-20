@@ -17,7 +17,7 @@ function start() {
                 switch (last_button) {
                     case "=":
                         list_numbers.pop('=') 
-                        expression = eval(list_numbers.join("")) 
+                        expression = Function("return " + list_numbers.join(""))()
                         list_numbers.length = 0
                         list_numbers.push(expression)
                         break

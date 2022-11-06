@@ -3,7 +3,7 @@
 - [X] Insert decimal numbers
 - [X] Clear and reset buttons
 - [X] Rework css
-- [X] React Integration
+- [ ] React Integration
 
 <hr>
 
